@@ -1,6 +1,6 @@
 {
   "id": "autoconf",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "name": "Autoconf",
   "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/autoconf",
   "description": "Installs autoconf",
