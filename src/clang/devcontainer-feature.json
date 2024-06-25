@@ -1,0 +1,24 @@
+{
+  "id": "clang",
+  "version": "0.1.0",
+  "name": "CLang",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/clang",
+  "description": "Installs CLang",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest",
+      "description": "Select or enter version of CLang to install"
+    }
+  },
+  "containerEnv": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

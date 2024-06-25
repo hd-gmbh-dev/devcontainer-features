@@ -1,0 +1,24 @@
+{
+  "id": "cmake",
+  "version": "0.1.0",
+  "name": "CMake",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/cmake",
+  "description": "Installs CMake",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "latest"
+      ],
+      "default": "latest",
+      "description": "Select or enter version of CMake to install"
+    }
+  },
+  "containerEnv": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
