@@ -1,6 +1,6 @@
 {
   "id": "cmake",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "CMake",
   "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/cmake",
   "description": "Installs CMake",

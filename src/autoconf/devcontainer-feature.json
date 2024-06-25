@@ -1,0 +1,15 @@
+{
+  "id": "autoconf",
+  "version": "0.1.2",
+  "name": "Autoconf",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/autoconf",
+  "description": "Installs autoconf",
+  "options": {},
+  "containerEnv": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

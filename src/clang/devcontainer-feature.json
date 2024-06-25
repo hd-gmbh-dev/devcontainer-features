@@ -1,6 +1,6 @@
 {
   "id": "clang",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "CLang",
   "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/clang",
   "description": "Installs CLang",
