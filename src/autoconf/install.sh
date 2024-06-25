@@ -30,4 +30,4 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt_get_update
 
-check_packages install build-essential autotools-dev automake autoconf libtool autoconf-archive
+check_packages build-essential autotools-dev automake autoconf libtool autoconf-archive gettext m4
