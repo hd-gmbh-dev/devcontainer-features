@@ -30,5 +30,4 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt_get_update
 
-check_packages build-essential
-# check_packages autoconf autotools-dev automake build-essential
+check_packages build-essential autotools autotools-dev
