@@ -1,20 +1,16 @@
 
-# Autoconf (autoconf)
+# Autotools (autotools)
 
-Installs autoconf
+Installs different autotools
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/hd-gmbh-dev/devcontainer-features/autoconf:0": {}
+    "ghcr.io/hd-gmbh-dev/devcontainer-features/autotools:0": {}
 }
 ```
 
-## Options
-
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
 
 
 ## Customizations
@@ -27,4 +23,4 @@ Installs autoconf
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hd-gmbh-dev/devcontainer-features/blob/main/src/autoconf/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hd-gmbh-dev/devcontainer-features/blob/main/src/autotools/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
