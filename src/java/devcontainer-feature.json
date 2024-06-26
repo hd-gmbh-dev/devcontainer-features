@@ -1,0 +1,15 @@
+{
+  "id": "java",
+  "version": "0.1.0",
+  "name": "Java",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/java",
+  "description": "Installs default Java JRE",
+  "options": {},
+  "containerEnv": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
