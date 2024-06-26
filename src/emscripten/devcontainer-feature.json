@@ -1,0 +1,25 @@
+{
+  "id": "emscripten",
+  "version": "0.1.0",
+  "name": "Emscripten",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/emscripten",
+  "description": "Installs Emscripten",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Select or enter version of Emscripten to install"
+    }
+  },
+  "containerEnv": {
+    "EMSDK_DIR": "/usr/local/emsdk",
+    "PATH": "${EMSDK_DIR}:${EMSDK_DIR}/upstream/emscripten:${EMSDK_DIR}/upstream/bin:${PATH}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

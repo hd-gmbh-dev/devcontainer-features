@@ -1,0 +1,14 @@
+{
+  "id": "autotools",
+  "version": "0.1.0",
+  "name": "Autotools",
+  "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/autotools",
+  "description": "Installs different autotools",
+  "containerEnv": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools-extension-pack"]
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
