@@ -1,6 +1,6 @@
 {
   "id": "emscripten",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Emscripten",
   "documentationURL": "https://github.com/hd-gmbh-dev/devcontainer-features/tree/main/src/emscripten",
   "description": "Installs Emscripten",
