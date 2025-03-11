@@ -73,6 +73,7 @@ if [ ! -d "${EMSDK_DIR}" ]; then
 
     updaterc "export EMSDK_DIR=${EMSDK_DIR}\nsource ${EMSDK_DIR}/emsdk_env.sh"
     source ${EMSDK_DIR}/emsdk_env.sh
+    npm i -g typescript
 fi
 
 rm -rf /var/lib/apt/lists/*
